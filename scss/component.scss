@@ -200,4 +200,23 @@
 
 // gnb
 
+.gnb{
+  min-width: 1280px;
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color01;
 
+  .h1-title{
+    em{
+      font-size: 0;
+    }
+  }
+
+  .gnb-button-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
