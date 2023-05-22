@@ -1,0 +1,16 @@
+//animation
+
+@keyframes right-fadeout{
+  0%{
+    opacity: 0;
+    transform: translate(-25%,-50%);
+  }
+  40%{
+    opacity: 1;
+    transform: translate(0%,-50%);
+  }
+  100%{
+    opacity: 0;
+    transform: translate(50%,-50%);
+  }
+}

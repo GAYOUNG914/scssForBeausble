@@ -12,6 +12,21 @@
     transform: translate(50%, -50%);
   }
 }
+.container-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.container-row {
+  display: flex;
+  max-width: 1220px;
+  padding: 0 32px;
+  gap: 24px;
+}
+
 .button {
   display: inline-block;
   position: relative;
@@ -202,19 +217,4 @@
 }
 .button-emph:hover {
   box-shadow: 0px 34px 9px -26px rgba(0, 0, 0, 0.2);
-}
-
-.container-column {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
-.container-row {
-  display: flex;
-  max-width: 1220px;
-  padding: 0 32px;
-  gap: 24px;
 }

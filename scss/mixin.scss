@@ -1,0 +1,18 @@
+//mixin
+
+@mixin top-center{
+  top: 50%; transform: translateY(-50%);
+}
+
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button($bg-color, $txt-color, $border-color){
+  background: $bg-color;
+  color: $txt-color;
+  border-color: $border-color;
+  border-radius: 50px;
+}
