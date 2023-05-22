@@ -3,7 +3,7 @@
 @import './animation.scss';
 @import './font.scss';
 
-//only component
+//only for component
 .container{
   &-column{
     display:flex;
@@ -201,22 +201,66 @@
 // gnb
 
 .gnb{
-  min-width: 1280px;
-  padding: 0 55px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: $color01;
+  width: 100%;
 
-  .h1-title{
-    em{
-      font-size: 0;
-    }
-  }
-
-  .gnb-button-wrap{
+  .gnb-top{
+    width: 100%; 
+    background-color: $color01;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .gnb-top-inner{
+      width: 1280px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:21px 55px;
+  
+  
+      .h1-title{
+        flex-shrink: 0;
+        em{
+          font-size: 0;
+        }
+        a{
+          display: inline-block;
+          width: 100%; height: 100%;
+        }
+      }
+    
+      .gnb-L1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        flex-shrink: 0;
+        .gnb-L1-list{
+          & > a{
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700;
+          }
+        }
+      }
+    
+      .gnb-L2{
+        display: none;
+      }
+    
+      .gnb-button-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+    }
   }
+
+
+
+  .gnb-bottom{
+    width: 1280px;
+  }
+
 }
