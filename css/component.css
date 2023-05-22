@@ -225,19 +225,14 @@
 .gnb .gnb-top {
   width: 100%;
   background-color: #EFF2D6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .gnb .gnb-top .gnb-top-inner {
-  width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1280px;
+  margin: 0 auto;
   padding: 21px 55px;
-}
-.gnb .gnb-top .gnb-top-inner .h1-title {
-  flex-shrink: 0;
 }
 .gnb .gnb-top .gnb-top-inner .h1-title em {
   font-size: 0;
@@ -252,7 +247,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  flex-shrink: 0;
 }
 .gnb .gnb-top .gnb-top-inner .gnb-L1 .gnb-L1-list > a {
   font-size: 16px;

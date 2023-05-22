@@ -206,20 +206,16 @@
   .gnb-top{
     width: 100%; 
     background-color: $color01;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     .gnb-top-inner{
-      width: 1280px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      width: 1280px;
+      margin: 0 auto;
       padding:21px 55px;
   
   
       .h1-title{
-        flex-shrink: 0;
         em{
           font-size: 0;
         }
@@ -234,7 +230,6 @@
         justify-content: space-between;
         align-items: center;
         gap: 40px;
-        flex-shrink: 0;
         .gnb-L1-list{
           & > a{
             font-size: 16px;
@@ -264,3 +259,6 @@
   }
 
 }
+
+
+//레이아웃부터 잡고 하기
